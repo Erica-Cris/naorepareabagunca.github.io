@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Num repare a bagunça!</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+<body>
+
+  <!--FACEBOOK-->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v5.0"></script>
+  <!--FACEBOOK-->
+  
+  <nav class="white" role="navigation" id="topo">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><img src="img/logo.png"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#index-banner">HOME</a></li>
+		    <li><a href="#inicio">COMEÇAR</a></li>
+        <li><a href="#imovel">IMÓVEL</a></li>
+		    <li><a href="#login">PERFIL</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#index-banner">HOME</a></li>
+		    <li><a href="#inicio">NOSSO APP</a></li>
+        <li><a href="#imovel">IMOVEL</a></li>
+		    <li><a href="#login">PERFIL</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Vai morar sozinho?</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Quer morar sozinho mas não sabe por onde começar? Podemos te ajudar!</h5>
+        </div>
+        <div class="row center">
+          <a href="#inicio" id="download-button" class="btn-large waves-effect waves-light teal lighten-1 amber darken-2">Vamos começar!</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container" id="inicio">
+    <div class="section">
+
+      <!--   CONTAGEM REGRESSIVA   -->
+      <div class="row" id="Sobre">
+       <body onLoad="atualizaContador()">
+			<h4 class="center"><i class="mdi-content-send black-text">Informe a data da mudança:</i>
+			<input type="data" size="1" onChange="DD=this.value" style="" /> /
+			<input type="data" size="1" onChange="MM=this.value" style="" /> /
+			<input type="data" size=4 onChange="YY=this.value" style="" /> </h4>
+			<h3 class="center"><span id="contador" class="amber"></span></h3>
+		</body>
+      </div>
+
+
+<!--CAROSEL-->
+        <h3 class="center"><i class="mdi-content-send black-text">Escolha um cômodo para começar:</i></h3>
+        <div class="carousel">
+            <a id="teste" class="carousel-item" href="quarto.html"><img id="teste1" src="img/quarto.jpg"></a>
+            <a id="teste" class="carousel-item" href="sala.html"><img id="teste1" src="img/sala.jpg"></a>
+            <a id="teste" class="carousel-item" href="cozinha.html"><img id="teste1" src="img/cozinha.jpg"></a>
+            <a id="teste" class="carousel-item" href="banheiro.html"><img id="teste1" src="img/banheiro.jpg"></a>
+       </div>
+      
+
+    </div>
+  </div>
+
+<!--   Icon Section   -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Te ajudaremos a organizar suas finanças para que você consiga manter sua tão sonhada independência.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+<!--IMOVEL-->
+
+  <div id="imovel" class="container">
+    <div class="section">
+
+      <div class="row" id="app">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Comprar ou alugar?</h4>
+          <p class="left-align light">Separamos algumas páginas de compra/aluga no Facebook especialmente para você! Confira:
+          </p>
+          <!--FACEBOOK-->
+        <table class="responsive-table">
+      <tr>
+        <td>
+              <div class="fb-page" data-href="https://www.facebook.com/Aluguel-de-im%C3%B3veis-Distrito-Federal-322308764618100/" data-tabs="timeline" data-width="300" data-height="2000" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Aluguel-de-im%C3%B3veis-Distrito-Federal-322308764618100/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Aluguel-de-im%C3%B3veis-Distrito-Federal-322308764618100/">Aluguel de imóveis Distrito Federal</a></blockquote></div>
+        </td>
+        <td>
+              <div class="fb-page" data-href="https://www.facebook.com/aluguelaguasclarasdf/?ref=br_rs" data-tabs="timeline" data-width="300" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/aluguelaguasclarasdf/?ref=br_rs" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/aluguelaguasclarasdf/?ref=br_rs">Aluguel Águas Claras - Brasília - DF</a></blockquote></div>
+        </td>
+         <td>
+               <div class="fb-page" data-href="https://www.facebook.com/meudfpontocom/?ref=br_rs" data-tabs="timeline" data-width="300" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/meudfpontocom/?ref=br_rs" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/meudfpontocom/?ref=br_rs">Meu DF Imóveis - Distrito Federal</a></blockquote></div>
+        </td>
+
+      </tr>
+
+      <tr>
+        <td>
+          <div class="fb-page" data-href="https://www.facebook.com/olxbrasil/" data-tabs="timeline" data-width="300" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/olxbrasil/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/olxbrasil/">OLX Brasil</a></blockquote></div>
+        </td>
+        <td>
+          <div class="fb-page" data-href="https://www.facebook.com/Im%C3%B3veis-Distrito-Federal-e-Regi%C3%B5es-768778926662435/?ref=br_rs" data-tabs="timeline" data-width="300" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Im%C3%B3veis-Distrito-Federal-e-Regi%C3%B5es-768778926662435/?ref=br_rs" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Im%C3%B3veis-Distrito-Federal-e-Regi%C3%B5es-768778926662435/?ref=br_rs">Imóveis Distrito Federal e Regiões</a></blockquote></div>
+        </td>
+        <td>
+          <div class="fb-page" data-href="https://www.facebook.com/Brasilia-Im%C3%B3veis-441934155970932/?ref=br_rs" data-tabs="timeline" data-width="300" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Brasilia-Im%C3%B3veis-441934155970932/?ref=br_rs" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Brasilia-Im%C3%B3veis-441934155970932/?ref=br_rs">Brasilia Imóveis</a></blockquote></div>
+        </td>
+      </tr>
+
+</table>
+
+    <!--FIM DO FACEBOOK-->
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Uma ajuda gratuita e completa só para você e sua casinha!</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <!--RODAPÉ-->
+
+  <footer class="page-footer teal amber">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Sobre nós:</h5>
+          <p class="grey-text text-lighten-4">Esse site foi desenvolvido por três estudantes do Instituto Federal de Brasília, discentes do curso de Tecnologia em Sistemas para Internet Vespertino: Erica Cristine, Nikolle de Lacerda e Thaís Carvalho Barreto.</p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Nossas redes sociais!</h5>
+          <ul>
+            <li><a class="white-text" href="https://m.facebook.com/login/?locale2=pt_BR">Facebook</a></li>
+            <li><a class="white-text" href="https://gmail.com/">E-mail</a></li>
+            <li><a class="white-text" href="https://twitter.com/login?lang=pt">Twitter</a></li>
+            <li><a class="white-text" href="https://www.instagram.com/?hl=pt-br">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      <center>Feito com <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a><br>
+      Desenvolvido por Erica Cristina | Nikolle de Lacerda | Thaís Carvalho</center>
+      </div>
+    </div>
+  </footer>
+
+
+<a href="#topo"><img id="bt-topo" src="img/topo.png"/></a>
+
+  <!--  Scripts-->
+<!--SCRIPT CONTAGEM REGRESSIVA-->
+<script language="Javascript">
+var YY = 2008;
+var MM = 12;
+var DD = 31;
+var HH = 23;
+var MI = 59;
+var SS = 59; 
+
+function atualizaContador() 
+{  
+var hoje = new Date();  
+var futuro = new Date(YY,MM-1,DD,HH,MI,SS);   
+var ss = parseInt((futuro - hoje) / 1000);  
+var mm = parseInt(ss / 60);  
+var hh = parseInt(mm / 60);  
+var dd = parseInt(hh / 24);   
+ss = ss - (mm * 60);  
+mm = mm - (hh * 60);  
+hh = hh - (dd * 24);   
+var faltam = '';  
+faltam += (dd && dd > 1) ? dd+' dias, ' : (dd==1 ? '1 dia, ' : '');  
+faltam += (toString(hh).length) ? hh+' hr, ' : '';  
+faltam += (toString(mm).length) ? mm+' min e ' : '';  
+faltam += ss+' seg';   
+
+ if (dd+hh+mm+ss > 0) 
+ {
+  document.getElementById('contador').innerHTML = 'Faltam: ' + faltam ;	
+  setTimeout(atualizaContador,1000);  
+ }
+ else
+ {
+  document.getElementById('contador').innerHTML = '';	
+  setTimeout(atualizaContador,1000);  
+ }
+}
+</script>
+<!--FIM SCRIPT CONTAGEM REGRESSIVA-->
+
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+      
+</script>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

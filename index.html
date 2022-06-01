@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Num repare a bagunça!</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+  
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo center" ><img id="topo" src="img/logo.png"></a>
+  </div>
+
+<article>
+    <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Vamos te ajudar a se organizar! Em qual dessas opções você se encaixa?</h1> 	
+        <div class="row center">
+          <a href="#modal1" id="download-button" class="btn-large waves-effect waves-light teal lighten-1 amber darken-2">Eu quero morar sozinho(a)!</a>
+        </div>
+        <div class="row center">
+          <a href="#modal2" id="download-button" class="btn-large waves-effect waves-light teal lighten-1 amber darken-2">Eu já moro sozinho(a)!</a>
+        </div>
+        <br><br>
+    </div>
+
+<!--CORPO DO MODAL NÃO MORA SOZINHO-->
+
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4 class="black-text">Login</h4>
+	 <div class="col s6">
+		<form class="">
+      <div class="row">
+		 <div class="input-field col s12">
+          <input id="Email" type="email" class="validate black-text">
+          <label for="Email">Email</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="Password" type="password" class="validate black-text">
+          <label for="Password">Senha</label>
+        </div>
+		 <div class="input-field col s12">
+         <button type="submit" class="waves-effect waves-light btn amber"><a href="nao_mora.html">Login</a></button>
+        </div>
+		<div class="input-field col s12">
+			<p><a href="#" class="black-text">Esqueceu a senha?</a></p>
+			<p><a href="#" class="black-text">Cadastre-se grátis!</a></p>
+		</div>
+       </div>	
+      </form>
+     </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
+    </div>
+  </div> 
+
+  <!--FIM DO MODAL-->
+
+
+
+  <!--CORPO DO MODAL JÁ MORA SOZINHO-->
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4 class="black-text">Login</h4>
+	 <div class="col s6">
+		<form class="">
+      <div class="row">
+		 <div class="input-field col s12 black-text">
+          <input id="Email" type="email" class="validate">
+          <label for="Email">Email</label>
+        </div>
+        <div class="input-field col s12 black-text">
+          <input id="Password" type="password" class="validate">
+          <label for="Password">Senha</label>
+        </div>
+		 <div class="input-field col s12">
+          <button type="submit" class="waves-effect waves-light btn amber"><a href="ja_mora.html">Login</a></button>
+        </div>
+		<div class="input-field col s12">
+			<p><a href="#" class="black-text">Esqueceu a senha?</a></p>
+			<p><a href="#" class="black-text">Cadastre-se grátis!</a></p>
+		</div>
+       </div>	
+      </form>
+     </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
+    </div>
+  </div> 
+
+  <!--FIM DO MODAL-->
+
+
+
+      <!-- MAIS INFORMAÇÕES -->
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row" id="Sobre">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center amber-text"><i class=" material-icons">flash_on</i></h2>
+            <h5 class="center black-text">O projeto</h5>
+            <p class="light">Esse projeto surgiu a partir de reflexões sobre o desejo de morar sozinho. De fato, a maioria não pensa na quantidade de responsabilidades que a vida indenpedente traz, apenas na parte positiva de ter total controle do seu próprio espaço. No entanto, se adaptar a uma vida solo depois de anos vivendo dependente de outros mesmo que indiretamente é desafiador, e a proposta desse site é te ajudar com tudo isso. </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center amber-text"><i class="material-icons">group</i></h2>
+            <h5 class="center black-text">Desenvolvedoras</h5>
+
+            <p class="light">Esse site foi desenvolvido por três estudantes do Instituto Federal de Brasília, discentes do curso de Tecnologia em Sistemas para Internet Vespertino: Erica Cristine, Nikolle de Lacerda e Thaís Carvalho Barreto. Esse projeto busca concluir o semestre da matéria de Construção de Páginas para Internet, sendo este o projeto final. </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center amber-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center black-text">Como utilizar</h5>
+            <p class="light">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</article>
+
+	
+	<!--fim de 'mais informações' -->
+
+	<!-- CONTATO -->	
+	<footer>
+		<table class="responsive-table">
+			<tr id="footer">
+				<td><a href="https://pt-br.facebook.com/" target="_blank"><img src="img/facebook.png"></a></td>
+				<td><a href="https://twitter.com/login?lang=pt" target="_blank"><img src="img/instagram.png"></a></td>
+				<td><a href="https://www.instagram.com/" target="_blank"><img src="img/twitter.png"></a></td>
+
+			</tr>
+		</table>
+
+	<!--BOTÃO DE TOPO -->
+		<a href="#topo"><img id="bt-topo" src="img/topo.png"></a>
+	<!-- fim do botão -->
+
+	</footer>
+	<!--fim do contato -->
+
+<!--SCRIPT-->
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>    
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+      <script>        
+      $(document).ready(function(){
+        $('.modal').modal();
+      });
+          
+      </script>
+
+
+</body>
+</html>

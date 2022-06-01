@@ -1,0 +1,219 @@
+*{margin: 0; padding: 0;}
+/*
+CORES:
+AMARELO:#f6f500
+BRANCO: #FFFFFF
+CINZA: #DAE0DF
+*/
+
+/*width:60%;
+height: 400px;
+margin-top: 5%;
+margin-left:20%;*/
+
+/*.img_index{
+	content: "TESTE";
+	-webkit-filter:grayscale(100%);
+	position:relative;top:0;padding:4px;background-color:#e8e8e8;
+}
+
+.img_index:hover{
+    -webkit-filter:grayscale(0%);
+    transition: 1s;
+    top:-4px;
+} */
+
+#lista1{
+	position: absolute;
+	height: 500px;
+	width: 50%;
+}
+#lista2{
+	position: relative;
+	height: 500px;
+	width: 50%;
+	margin-left: 400px;
+}
+
+.div_ft{
+	height: 400px;
+	width: 700px;
+}
+
+#imagem{
+    -webkit-filter:grayscale(0%);
+}
+#imagem:hover{opacity: 0.6;
+    -webkit-filter:grayscale(100%);
+    transition: 1s;}
+
+.gal {
+	
+	
+	-webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+	  
+	
+	}	
+	.gal img{ width: 100%; padding: 5px 0;}
+@media (max-width: 100px) {
+		
+		.gal {
+	
+	
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	  
+	
+	}
+		
+	}
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+#teste{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+#img_quero{
+	height:250px;
+	width:400px;
+	margin-top: 10%;
+	margin-left: -8%;
+	border-radius: 5%;
+}
+
+#img_jasou{
+	height:250px;
+	width:400px;
+	margin-top: 10%;
+	margin-left: 8%;
+	border-radius: 5%;
+}
+
+
+article{
+	background-image: url("../img/background1.jpg");
+	height: 450px;
+	width: 100%;
+}
+
+#quarto{
+	background-image: url("../img/background2.jpg");
+	height: 450px;
+	width: 100%;
+}
+#sala{
+	background-image: url("../img/background1.jpg");
+	height: 450px;
+	width: 100%;
+}
+#cozinha{
+	background-image: url("../img/background4.jpg");
+	height: 450px;
+	width: 100%;
+}
+#banheiro{
+	background-image: url("../img/background3.jpg");
+	height: 450px;
+	width: 100%;
+}
+
+
+#sec_titulo{
+	height: 100px;
+	width: 100%;
+}
+
+h1, h2{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 3em;
+	margin: 0; padding: 0;	
+	/*text-shadow: #000000 0.1em 0.1em 0.1em;*/
+}
+
+#sec_naomora{
+	background-color: #757575;
+	height: 75%;
+	width: 45%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 2%;
+}
+#sec_jamora{
+	background-color: #757575;
+	height: 75%;
+	width: 45%;
+	float: right;
+	margin-top: 10px;
+	margin-right: 2%;
+}
+
+.transparencia {
+	filter:alpha(opacity=50);
+	opacity: 0.5;
+	-moz-opacity:0.5;     
+	-webkit-opacity:0.5;
+}
+
+/* >>>>> PARTE DE TEXTINHOS DA THAÍS<<<<<*/
+
+#baixo{
+	background-color: #e8e8e8;
+}
+table{
+	text-decoration-color: #DAE0DF;
+	border: 0px;
+}
+
+table h4,p {
+	text-align: center;
+	font-family: 'Donis', sans-serif;
+	color: black;
+}
+
+table img{
+	width: 65px;
+	height: 65px;
+	margin-left: 200px;
+	margin-top: 30px;
+}
+
+table td {
+	padding:15px ;
+}
+
+footer img{
+	width: 30px;
+	height: 30px;
+}
+
+footer h4{
+	font-family: 'Donis', sans-serif;
+	text-align: center;
+	color: black;
+}
+
+
+
+

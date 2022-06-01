@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Num repare a bagunça!</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+<body>
+  
+  <nav class="white" role="navigation" id="topo">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><img src="img/logo.png"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#index-banner">HOME</a></li>
+        <li><a href="#lista">LISTAS</a></li>
+        <li><a href="#app">AGENDA</a></li>
+        <li><a href="#login">PERFIL</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">HOME</a></li>
+		<li><a href="#lista">LISTAS</a></li>
+		<li><a href="#app">AGENDA</a></li>
+		<li><a href="#login">PERFIL</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Já mora sozinho?</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Já mora sozinho mas quer uma mãozinha com as obrigações de casa? Podemos te ajudar!</h5>
+        </div>
+        <div class="row center">
+          <a href="#lista" id="download-button" class="btn-large waves-effect waves-light teal lighten-1 amber">Vamos começar!</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container" id="lista">
+    <div class="section">
+      <h3 class="center"><i class="mdi-content-send black-text"></i>Umas listas pra te dar uma mãozinha:</h3>
+
+         <h5 class="center"><i class="mdi-content-send black-text">Escolha um cômodo</i></h5>
+         <div class="carousel">
+            <a id="teste" class="carousel-item" href="quarto.html"><img id="teste1" src="img/quarto.jpg"></a>
+            <a id="teste" class="carousel-item" href="sala.html"><img id="teste1" src="img/sala.jpg"></a>
+            <a id="teste" class="carousel-item" href="cozinha.html"><img id="teste1" src="img/cozinha.jpg"></a>
+            <a id="teste" class="carousel-item" href="banheiro.html"><img id="teste1" src="img/banheiro.jpg"></a>
+         </div>
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Te ajudaremos a organizar suas finanças para que você consiga manter sua tão sonhada independência.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row" id="app">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send black-text"></i>Uma agenda pra te ajudar a se organizar:</h3>
+          <p class="center light">Aqui você poderá acompanhar eventos pré definidos por nós para te ajudar a não esquecer de nada da sua casinha!</p>
+
+          <div class="videoWrapper"> 
+            <iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FSao_Paulo&amp;src=NG1uMmFiM2ZmOW1pcmxydW4wcmJmbzk1aGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=cHQuYnJhemlsaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%238A2D38&amp;color=%23227F63&amp;showTitle=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;showTz=0&amp;showDate=1&amp;showNav=0" style="border-width:0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Uma ajuda gratuita e completa só para você e sua casinha!</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <!--RODAPÉ-->
+
+  <footer class="page-footer teal amber">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Sobre nós:</h5>
+          <p class="grey-text text-lighten-4">Esse site foi desenvolvido por três estudantes do Instituto Federal de Brasília, discentes do curso de Tecnologia em Sistemas para Internet Vespertino: Erica Cristine, Nikolle de Lacerda e Thaís Carvalho Barreto.</p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Nossas redes sociais!</h5>
+          <ul>
+            <li><a class="white-text" href="https://m.facebook.com/login/?locale2=pt_BR">Facebook</a></li>
+            <li><a class="white-text" href="https://gmail.com/">E-mail</a></li>
+            <li><a class="white-text" href="https://twitter.com/login?lang=pt">Twitter</a></li>
+            <li><a class="white-text" href="https://www.instagram.com/?hl=pt-br">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      <center>Feito com <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a><br>
+      Desenvolvido por Erica Cristina | Nikolle de Lacerda | Thaís Carvalho</center>
+      </div>
+    </div>
+  </footer>
+
+
+<a href="#topo"><img id="bt-topo" src="img/topo.png"/></a>
+
+  <!--  Scripts-->
+
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+      
+</script>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
